@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ysa',
-    version='0.1.2',
+    version='0.1.3',
     author='shailyn ortiz(@M_abaader)',
     author_email='sortizjim@gmail.com',
     description='python client for the YSA api',
