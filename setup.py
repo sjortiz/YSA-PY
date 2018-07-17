@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ysa',
-    version='0.1.0',
+    version='0.1.2',
     author='shailyn ortiz(@M_abaader)',
     author_email='sortizjim@gmail.com',
     description='python client for the YSA api',
@@ -13,6 +13,12 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/sjortiz/YSA-PY',
     packages=setuptools.find_packages(),
+    install_requires=[
+        'requests==2.19.1',
+    ],
+    test_dependencies=[
+        'requests==2.19.1',
+    ],
     classifiers=(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: Apache Software License',
