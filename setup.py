@@ -14,10 +14,10 @@ setuptools.setup(
     url='https://github.com/sjortiz/YSA-PY',
     packages=setuptools.find_packages(),
     install_requires=[
-        'requests==2.20.0',
+        'requests==2.31.0',
     ],
     test_dependencies=[
-        'requests==2.20.0',
+        'requests==2.31.0',
     ],
     classifiers=(
         'Programming Language :: Python :: 3',
